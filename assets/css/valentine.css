@@ -1,0 +1,45 @@
+.valantineRow .col-5 h1 {
+  margin-top: 30px;
+  font-family: 'Alegreya', serif;
+}
+
+.valantineRow .col-5 h1 span {
+  color: red;
+}
+
+.valantineRow .col-5 p {
+  margin-top: 30px;
+  font-size: 19px;
+  color: gray;
+}
+
+#valentine {
+  background-color: #f7f7f7;
+}
+
+#experts {
+  margin-top: 120px;
+  text-align: center;
+}
+
+#experts .title {
+  font-family: 'Alegreya', serif;
+}
+
+.image {
+  position: relative;
+}
+
+.image button {
+  position: absolute;
+  left: -757px;
+  width: 650px;
+  height: 300%;
+  top: -220px;
+  opacity: 1%;
+}
+
+.modal-body {
+  height: 700px;
+}
+/*# sourceMappingURL=valentine.css.map */

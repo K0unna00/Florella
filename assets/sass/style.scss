@@ -1,0 +1,252 @@
+.row{
+    .navbar{
+    
+        ul{
+            list-style-type: none;
+            li{
+                position: relative;
+                margin-left: 55px;
+                a{
+                    text-decoration: none;
+                    color: gray;
+                    position: relative;
+                    // padding: 20px;
+                }
+                a::after{
+                    content: "";
+                    width: 0%;
+                    height: 1px;
+                    background-color: gray;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    transition: 0.6s;
+                }
+                a:hover:after{
+                    width: 100%;
+                   
+                }
+                i{
+                    
+                    transition: 0.2s;
+                    &:hover{
+                        color: red;
+                    }
+                }
+                a:hover ~ .homeDiv{
+                    height: 200px !important;
+                    visibility: visible;
+                    opacity: 100%;
+                }
+                div{
+                    overflow: hidden;
+                    height: 0;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.7s;
+                    position: absolute;
+                    left: -87px;
+                    li{
+                        margin-bottom: 10px;
+                        color: gray;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+.liwidth100{
+    width: 110px;
+}
+.profiles{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+        li{
+            
+        }
+    }
+}
+#paralax{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    background-image: url("	https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    .row{
+        margin-right: 0;
+        .title{
+            margin-left: 30px;
+            margin-top: 100px;
+            color: white;
+            font-family: 'Alegreya', serif;
+        }
+        .input{
+            margin-left: -60px;
+            text-align: center;
+            position: relative;
+            input{
+                width: 400px;
+                height: 50px;
+                outline: none;
+            }
+            button{
+                position: absolute;
+                width: 150px;
+                height: 50px;
+                color: white;
+                background-color: red;
+                outline: none;
+                border: 0;
+                right: 160px;
+            }
+        } 
+    }
+    
+}
+#fromOurBlog{
+    margin-top: 40px;
+    font-family: 'Alegreya', serif;
+    .title{
+        margin-left: 840px;
+    }
+    .subtitle{
+        margin-left: 20px;
+    }
+    .cards{
+        font-family: 'Courgette', cursive;
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 250px;
+            li{
+                text-align: center;
+                margin-right: 30px;
+                .image{
+                    overflow: hidden;
+                    &:hover{
+                        img{
+                            transform:scale(1.1);
+                        }
+                    }
+                    position: relative;
+                    img{
+                        width: 400px;
+                        transition: 0.5s;
+                        
+                    }
+                    .date{
+                        position: absolute;
+                        width: 120px;
+                        height: 30px;
+                        background-color: white;
+                        top: 12px;
+                        left: 20px;
+                        h6{
+                            margin-top: 4px;
+                        }
+                    }
+                }
+                .imgTitle{
+                    margin-top: 10px;
+                }
+            }
+        }
+        
+    }
+    
+}
+#comment{
+    margin-top: 70px;
+    margin-bottom: 60px;
+    .carousel{
+        .carousel-item{
+            .iconPhoto{
+                img{
+                    width: 80px;
+                }
+            }
+            .subtitle{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                h2{
+                    font-size: 22px;
+                    color: gray;
+                } 
+            }
+            .name{
+                h4{
+                    font-size: 17px;
+                    color: gray;
+                } 
+            }
+            .pos{
+                h6{
+                    font-size: 15px;
+                    color: gray;
+                }
+            }
+        }
+        button{
+            svg{
+                color: black;
+            }
+        }
+    }
+    
+}
+footer{
+    background-color: #fefaf3;
+    .footerMenu{
+        padding-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            list-style: none;
+            li{
+                p{
+                    font-size: 12px;
+                    color: gray;
+                }
+            }
+            .header{
+                margin-bottom: 30px;
+                h4{
+                    font-size: 15px;
+                    color: rgb(99, 99, 99);
+                }
+            }
+        }
+    }
+}
+.test{
+    width: 1000px;
+    height: 200px;
+}
+.footerEnd{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    .copyright{
+        color: gray;
+    }
+    .sosial{
+        button{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: gray;
+            &:hover{
+                color: rgb(71, 71, 71);
+            }
+        }
+    }
+}

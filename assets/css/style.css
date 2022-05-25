@@ -1,0 +1,283 @@
+.row .navbar ul {
+  list-style-type: none;
+}
+
+.row .navbar ul li {
+  position: relative;
+  margin-left: 55px;
+}
+
+.row .navbar ul li a {
+  text-decoration: none;
+  color: gray;
+  position: relative;
+}
+
+.row .navbar ul li a::after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: gray;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.row .navbar ul li a:hover:after {
+  width: 100%;
+}
+
+.row .navbar ul li i {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.row .navbar ul li i:hover {
+  color: red;
+}
+
+.row .navbar ul li a:hover ~ .homeDiv {
+  height: 200px !important;
+  visibility: visible;
+  opacity: 100%;
+}
+
+.row .navbar ul li div {
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  position: absolute;
+  left: -87px;
+}
+
+.row .navbar ul li div li {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.liwidth100 {
+  width: 110px;
+}
+
+.profiles ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+#paralax {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 400px;
+  background-image: url("	https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#paralax .row {
+  margin-right: 0;
+}
+
+#paralax .row .title {
+  margin-left: 30px;
+  margin-top: 100px;
+  color: white;
+  font-family: 'Alegreya', serif;
+}
+
+#paralax .row .input {
+  margin-left: -60px;
+  text-align: center;
+  position: relative;
+}
+
+#paralax .row .input input {
+  width: 400px;
+  height: 50px;
+  outline: none;
+}
+
+#paralax .row .input button {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: red;
+  outline: none;
+  border: 0;
+  right: 160px;
+}
+
+#fromOurBlog {
+  margin-top: 40px;
+  font-family: 'Alegreya', serif;
+}
+
+#fromOurBlog .title {
+  margin-left: 840px;
+}
+
+#fromOurBlog .subtitle {
+  margin-left: 20px;
+}
+
+#fromOurBlog .cards {
+  font-family: 'Courgette', cursive;
+}
+
+#fromOurBlog .cards ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 250px;
+}
+
+#fromOurBlog .cards ul li {
+  text-align: center;
+  margin-right: 30px;
+}
+
+#fromOurBlog .cards ul li .image {
+  overflow: hidden;
+  position: relative;
+}
+
+#fromOurBlog .cards ul li .image:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#fromOurBlog .cards ul li .image img {
+  width: 400px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#fromOurBlog .cards ul li .image .date {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  top: 12px;
+  left: 20px;
+}
+
+#fromOurBlog .cards ul li .image .date h6 {
+  margin-top: 4px;
+}
+
+#fromOurBlog .cards ul li .imgTitle {
+  margin-top: 10px;
+}
+
+#comment {
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+#comment .carousel .carousel-item .iconPhoto img {
+  width: 80px;
+}
+
+#comment .carousel .carousel-item .subtitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#comment .carousel .carousel-item .subtitle h2 {
+  font-size: 22px;
+  color: gray;
+}
+
+#comment .carousel .carousel-item .name h4 {
+  font-size: 17px;
+  color: gray;
+}
+
+#comment .carousel .carousel-item .pos h6 {
+  font-size: 15px;
+  color: gray;
+}
+
+#comment .carousel button svg {
+  color: black;
+}
+
+footer {
+  background-color: #fefaf3;
+}
+
+footer .footerMenu {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footerMenu ul {
+  list-style: none;
+}
+
+footer .footerMenu ul li p {
+  font-size: 12px;
+  color: gray;
+}
+
+footer .footerMenu ul .header {
+  margin-bottom: 30px;
+}
+
+footer .footerMenu ul .header h4 {
+  font-size: 15px;
+  color: #636363;
+}
+
+.test {
+  width: 1000px;
+  height: 200px;
+}
+
+.footerEnd {
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerEnd .copyright {
+  color: gray;
+}
+
+.footerEnd .sosial button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: gray;
+}
+
+.footerEnd .sosial button:hover {
+  color: #474747;
+}
+/*# sourceMappingURL=style.css.map */
